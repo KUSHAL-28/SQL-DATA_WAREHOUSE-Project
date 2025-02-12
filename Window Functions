@@ -1,0 +1,15 @@
+-- Find the total sales across all orders
+-- Find the total sales for each product. 
+-- Find the total sales for each combination of product and order status
+-- Additionally provide details such as order ID, order date. 
+USE SalesDB
+select
+	OrderID,
+	OrderDate,
+	ProductID,
+	OrderStatus,
+	Sales,
+	sum(Sales) OVER() as TotalSales,
+	sum(Sales) OVER(Partition by ProductID) as TotalSalesbyProduct,
+	sum(Sales) OVER(Partition by ProductID,OrderStatus) as TotalSalesbyProduct
+from Sales.Orders

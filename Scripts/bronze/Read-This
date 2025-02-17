@@ -1,0 +1,17 @@
+Building the Bronze Layer
+
+Steps:
+
+1. Analysis:
+   - Conduct interviews with source system experts to understand the source systems and their data.
+
+2. Data Ingestion:
+   - Develop methods to load data from source systems into the data warehouse, creating a bridge between source and target systems.
+
+3. Data Validation:
+   - Perform quality control to ensure data completeness by comparing the number of records between the source system and the data warehouse.
+   - Conduct schema checks to verify that the data is placed correctly within the data warehouse.
+
+4. Documentation and Version Control:
+   - Document the processes and data model thoroughly.
+   - Commit your work to version control systems like Git to keep track of changes and updates.

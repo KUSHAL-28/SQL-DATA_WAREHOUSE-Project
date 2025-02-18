@@ -1,0 +1,40 @@
+Building the Silver Layer
+
+Steps:
+
+1. Analysis:
+   - Explore the data to understand the content of the source systems.
+
+2. Data Cleansing:
+   - Step 1: Identify data quality issues in the bronze layer.
+   - Step 2: Write data transformations to fix the identified issues.
+   - Step 3: Insert the cleaned data into the silver layer.
+
+3. Data Validation:
+   - Ensure the data in the silver layer is correct and free of quality issues.
+   - If issues are found, go back to the data cleansing step and repeat the cycle of validation and coding.
+
+4. Documentation and Version Control:
+   Building the Silver Layer
+
+Steps:
+
+1. Analysis:
+   - Explore the data to understand the content of the source systems.
+
+2. Data Cleansing:
+   - Step 1: Identify data quality issues in the bronze layer.
+   - Step 2: Write data transformations to fix the identified issues.
+   - Step 3: Insert the cleaned data into the silver layer.
+
+3. Data Validation:
+   - Ensure the data in the silver layer is correct and free of quality issues.
+   - If issues are found, go back to the data cleansing step and repeat the cycle of validation and coding.
+
+4. Documentation and Version Control:
+   - Document the processes, data flow diagram, and data integration diagram.
+   - Commit your work to version control systems like Git to keep track of changes and updates.
+
+
+   - Commit your work to version control systems like Git to keep track of changes and updates.
+
